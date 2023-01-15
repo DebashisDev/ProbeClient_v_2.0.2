@@ -1,0 +1,19 @@
+#############################################################
+# Script Name	: probeenv									#
+# Description	: Environment File for  SpectaProbe			#
+# DATE 			: 19-02-2016								#
+# AUTHOR		: Debashis.									#
+# NOTE			: To Compile Probe For Diffrent Interfaces 	#
+#															#
+# Copyright (c) 2016, Pinnacle Digital (P) Ltd. New-Delhi	# 
+#############################################################
+
+PROBE_VER=2.0.2
+PROBE_ROOT=/home/specta/workspace/SpectaClient-v2.0.2
+PROBE_CONF=${PROBE_ROOT}/config
+
+export PROBE_VER
+export PROBE_ROOT
+export PROBE_CONF
+
+export LD_LIBRARY_PATH="/opt/pinnacle/Solarflare/newOnload/onload-7.0.0.176/build/gnu_x86_64/lib/ciul:/usr/local/lib:$LD_LIBRARY_PATH"
